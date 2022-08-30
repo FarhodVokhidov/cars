@@ -1,0 +1,174 @@
+body{
+    box-sizing: border-box;
+    font-family: Roboto;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url("../fonts/Robotobold.ttf");
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.header {
+    padding:  25px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+.menu-item {
+    text-decoration: none;
+    margin-left: 115px;
+
+}
+.header .container{
+    display: flex;
+    align-items: center;
+}
+.logo .img{
+    vertical-align: bottom;
+    transition: all .3s;
+    background-color: #246298;
+}
+.logo .img:hover{
+    transform: scale(1.1);
+}
+.menu{
+    margin-left: 244px;
+}
+.menu-item a {
+    font-size: 15px;
+    color: #030305;
+    text-decoration: none;
+}
+.menu-item a:hover{
+    border-bottom: 3px solid #030305;
+}
+.main{
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 204px;
+    padding-top: 10px;
+}
+.main-info h1{
+    font-size: 80px;
+    line-height: 88px;
+}
+.main-text{
+    width: 400px;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.main-action button{
+    color: white;
+    background-color: black;
+    padding: 20px 54px;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+.main-action button:hover{
+    cursor: pointer;
+    background: #363638;
+}
+.sub-title{
+    margin-bottom: 40px;
+}
+.card-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 384px;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+.car-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card img{
+    margin-bottom: 15px;
+}
+.card-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+.icons p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card button{
+    padding: 15px 112px;
+    font-size: 16px;
+    width: 100%;
+
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form input{
+    width: 344px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.btn-forms{
+    padding: 20px 116px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s;
+}
+.btn-forms:hover{
+    cursor:pointer;
+    background-color: #8383da;
+    color: #030305;
+}
+.price-froms{
+    display: flex;
+}
+footer{
+    border-top: 1px solid #E5E5E5;
+    padding: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-title h1 {
+    font-size: 60px;
+}
+.price-title p {
+    font-size: 16px;
+}
+
+.card img{
+    vertical-align: bottom;
+    transition: all .3s;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
